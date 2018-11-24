@@ -1,0 +1,23 @@
+{
+  "name": "gladys-mi-home",
+  "version": "0.1.0",
+  "description": "Gladys Xiaomi Mi Home Module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "gladys",
+    "xiaomi",
+    "home",
+    "aqara"
+  ],
+  "author": "Damien Guillot",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "lumi-aqara": "^1.10.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "bluebird": "^3.5.2"
+  }
+}
