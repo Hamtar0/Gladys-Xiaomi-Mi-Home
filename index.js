@@ -1,5 +1,7 @@
 const playWithClient = require('./lib/playWithClient.js');
 const install = require('./install.js');
+const exec = require('./lib/exec.js');
+const command = require('./lib/execCommand/commands.js')
 
 module.exports = function(sails) {
   gladys.on('ready', () => {
@@ -8,6 +10,8 @@ module.exports = function(sails) {
   } )
   return {
     playWithClient: playWithClient,
-    install: install
+    install: install,
+    exec:exec,
+    command:command
   }
 };
