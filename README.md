@@ -23,9 +23,9 @@ The goal of this module is to receive events from Xiaomi Home Devices
 
 To install this module :
 
-- Create a key/value in "Parameters > Parameters" in Gladys admin : GATEWAY_XIAOMI on the left field (key), and the password dev on th right field (value)
 - Install the module in Gladys
 - Reboot Gladys
+- Go to "Parameters > Parameters" in Gladys admin and change the value of XIAOMI_GATEWAY_IDENTIFIER_<the identifier of the gateway on your devices view> "default_value" by the dev password in Mi Home app.
 - Voilà !
 
 ## To do
